@@ -1,0 +1,130 @@
+
+          -------------------------------------------------------
+          Amber 21 SANDER                              2021
+          -------------------------------------------------------
+
+| Run on 03/28/2022 at 15:52:44
+
+|   Executable path: /home/flechenault/anaconda3/envs/Gianluca/bin/sander
+| Working directory: /home/flechenault/Documents/Gianluca/Structure_DB_Amber_HiRE/FA_PDB/Source_PDB
+|          Hostname: Unknown
+  [-O]verwriting output
+
+File Assignments:
+|  MDIN: min.in                                                                
+| MDOUT: 1bz2_min.out                                                          
+|INPCRD: 1bz2.rst7                                                             
+|  PARM: 1bz2.prmtop                                                           
+|RESTRT: 1bz2_min.ncrst                                                        
+|  REFC: refc                                                                  
+| MDVEL: mdvel                                                                 
+| MDFRC: mdfrc                                                                 
+|  MDEN: mden                                                                  
+| MDCRD: mdcrd                                                                 
+|MDINFO: mdinfo                                                                
+|  MTMD: mtmd                                                                  
+|INPDIP: inpdip                                                                
+|RSTDIP: rstdip                                                                
+|INPTRA: inptraj                                                               
+
+
+ Here is the input file:
+
+mol: initial minimisation prior to MD GB model                                 
+ &cntrl                                                                        
+  imin   = 1,                                                                  
+  maxcyc = 500,                                                                
+  ncyc   = 250,                                                                
+  ntb    = 0,                                                                  
+  igb    = 1,                                                                  
+  cut    = 12                                                                  
+ /                                                                             
+
+--------------------------------------------------------------------------------
+   1.  RESOURCE   USE: 
+--------------------------------------------------------------------------------
+
+| Flags:                                                                        
+| New format PARM file being parsed.
+| Version =    1.000 Date = 03/28/22 Time = 15:52:44
+ NATOM  =     535 NTYPES =      14 NBONH =     182 MBONA  =     393
+ NTHETH =     420 MTHETA =     609 NPHIH =     947 MPHIA  =    1251
+ NHPARM =       0 NPARM  =       0 NNB   =    2998 NRES   =      17
+ NBONA  =     393 NTHETA =     609 NPHIA =    1251 NUMBND =      45
+ NUMANG =      94 NPTRA  =      78 NATYP =      28 NPHB   =       0
+ IFBOX  =       0 NMXRS  =      34 IFCAP =       0 NEXTRA =       0
+ NCOPY  =       0
+
+ Implicit solvent radii are modified Bondi radii (mbondi)                                                   
+
+|     Memory Use     Allocated
+|     Real              748337
+|     Hollerith           1624
+|     Integer            49562
+|     Max Pairs              1
+|     nblistReal             0
+|     nblist Int             0
+|       Total             6046 kbytes
+
+| Note: 1-4 EEL scale factors are being read from the topology file.
+
+| Note: 1-4 VDW scale factors are being read from the topology file.
+| Duplicated    0 dihedrals
+| Duplicated    0 dihedrals
+
+--------------------------------------------------------------------------------
+   2.  CONTROL  DATA  FOR  THE  RUN
+--------------------------------------------------------------------------------
+
+default_name                                                                    
+
+General flags:
+     imin    =       1, nmropt  =       0
+
+Nature and format of input:
+     ntx     =       1, irest   =       0, ntrx    =       1
+
+Nature and format of output:
+     ntxo    =       2, ntpr    =      50, ntrx    =       1, ntwr    =       1
+     iwrap   =       0, ntwx    =       0, ntwv    =       0, ntwe    =       0
+     ioutfm  =       1, ntwprt  =       0, idecomp =       0, rbornstat=      0
+
+Potential function:
+     ntf     =       1, ntb     =       0, igb     =       1, nsnb    =      25
+     ipol    =       0, gbsa    =       0, iesp    =       0
+     dielc   =   1.00000, cut     =  12.00000, intdiel =   1.00000
+     saltcon =   0.00000, offset  =   0.09000, gbalpha=    1.00000
+     gbbeta  =   0.00000, gbgamma =   0.00000, surften =   0.00500
+     rdt     =   0.00000, rgbmax  =  25.00000  extdiel =  78.50000
+     alpb  =        0
+
+Frozen or restrained atoms:
+     ibelly  =       0, ntr     =       0
+
+Energy minimization:
+     maxcyc  =     500, ncyc    =     250, ntmin   =       1
+     dx0     =   0.01000, drms    =   0.00010
+|  INFO: Old style inpcrd file read
+
+
+--------------------------------------------------------------------------------
+   3.  ATOMIC COORDINATES AND VELOCITIES
+--------------------------------------------------------------------------------
+
+default_name                                                                    
+ begin time read from input coords =     0.000 ps
+
+ Number of triangulated 3-point waters found:        0
+
+--------------------------------------------------------------------------------
+   4.  RESULTS
+--------------------------------------------------------------------------------
+
+
+
+   NSTEP       ENERGY          RMS            GMAX         NAME    NUMBER
+      1      -3.1510E+03     6.9827E+00     3.2245E+01     N2        490
+
+ BOND    =        5.6685  ANGLE   =       78.3915  DIHED      =      456.5497
+ VDWAALS =     -245.0646  EEL     =     -369.9632  EGB        =    -2077.5067
+ 1-4 VDW =      173.3602  1-4 EEL =    -1172.4328  RESTRAINT  =        0.0000

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/mddriver/!svn/ver/70/protocol/src/python/mddriver1.0/mddriver
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/mddriver/!svn/ver/70/protocol/src/python/mddriver1.0/mddriver/__init__.py
+END
+mddriver.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/mddriver/!svn/ver/70/protocol/src/python/mddriver1.0/mddriver/mddriver.c
+END

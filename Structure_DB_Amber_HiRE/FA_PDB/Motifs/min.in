@@ -1,0 +1,9 @@
+mol: initial minimisation prior to MD GB model
+ &cntrl
+  imin   = 1,
+  maxcyc = 500,
+  ncyc   = 250,
+  ntb    = 0,
+  igb    = 1,
+  cut    = 12
+ /

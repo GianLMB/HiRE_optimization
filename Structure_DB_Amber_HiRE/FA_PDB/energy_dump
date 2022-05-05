@@ -1,0 +1,35 @@
+
+  ____    .---.  ,-----.  _____            
+.'    `,.':   :'' :    :.'     `.          
+| :   :    ' '     '  '   :   :  \         
+|  ' '                     ' '    \        
+|       v                          \       
+|       |       v                   \      
+|       |       |       v            \     
+|   P   |   A   |   R   |   M   |     \    
+|       |       |       |       |      \   
+|       |       |       |       |       \  
+|       |       |       |       |        \ 
+| ===== |       |       |       |         )
+ \ --- /| ===== |       |       |        / 
+  `---'  \ --- /| ===== | ===== |       /  
+          `---'  \ ---- A ----- /      /   
+                  `----'.`-----'      /    
+                       /             /     
+                       '-._    ED   /      
+                           '.      /       
+                             `----' 
+
+ParmEd: a Parameter file Editor
+
+
+Reading input from STDIN...
+> Adding prmtop 1ato.prmtop to parm list. 1ato.prmtop is the active parm.
+> Adding coordinates to 1ato.prmtop from 1ato.pdb
+> Computing a single-point energy for 1ato.prmtop
+Bond     =      1251733.1513546     Angle    =        55381.1243701
+Dihedral =         1540.5462399     1-4 vdW  =       838703.3861048
+1-4 Elec =        -2084.9695879     vdWaals  =     21999991.0386379
+Elec.    =         3680.0291048     Egb      =        -5743.0146065
+TOTAL    =     24143201.2916177
+> Done!

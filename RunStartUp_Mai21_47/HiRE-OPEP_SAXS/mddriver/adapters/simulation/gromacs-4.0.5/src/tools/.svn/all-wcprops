@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/mddriver/!svn/ver/57/adapters/simulation/gromacs-4.0.5/src/tools
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/mddriver/!svn/ver/48/adapters/simulation/gromacs-4.0.5/src/tools/Makefile.am
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/mddriver/!svn/ver/57/adapters/simulation/gromacs-4.0.5/src/tools/CMakeLists.txt
+END

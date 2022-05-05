@@ -1,0 +1,5 @@
+# Log started on 03/25/2022 [mm/dd/yyyy] at 15:11:00
+parm 1DQH.prmtop
+loadCoordinates 1DQH.pdb
+energy
+quit

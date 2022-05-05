@@ -1,0 +1,5 @@
+To run check the values of the energy with the fortran code run
+
+./HIRE_fortran parameters.top scale_RNA.dat
+
+in the directory Output/xxxx/HiRE-test

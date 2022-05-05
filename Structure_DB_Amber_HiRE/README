@@ -1,0 +1,30 @@
+FA_PDB directory contains RNA structures (.pdb files). 
+Subdirs:
+- Source_PDB: contains the pdb files as downloaded from the PDB Database, taking only the first structure in case of files from NMR
+              loop_minimize_FA.sh: 
+			for every structure generate topology files for Amber (tleap command)
+			performs a minimization using Amber (sander command)
+			generates a pdb file from the last configuration of the minimization (ambpdb command)
+			copies the minimized file into the FA_minimized directory -> these files are used for all successive work
+			computes the Amber energies of the minimized structure (./script_parmed.sh) and move the results in Amber_energies directory
+			generates a pdb file using the alternative naming of the atoms (' -> * and others) and copies it into FA4CG directory -> needed for the conversion to coarse-graining
+
+	      loop_minimize_FA.sh has to be used when generating structures from cutting the ones in the DB 
+		(need to compute new energy, new CG file, minimization can be commented and skipped)
+
+
+- Amber_energies : energy files computed for all structures in the DB
+- FA4CG : atomistic pdb files (minimized) with the atom names recognized by the generator for the coarse-grained structures
+- FA_minimized : atomistic structures minimized with AMBER from native -> this folder has to be used as reference from now on
+
+Prep_pureHire directory contains the generator for CG files
+	1. copy an atomistic structure (xyzw.pdb) into the Input directory
+        2. generate a directory with all CG files
+		 ./generate_run_dir.sh xyzw 
+	   -> a dir xyzw is created in Output containing:
+		- original atomistic pdb structure xyzw.pdb
+		- coarse-grained pdb structure xyzw_CG.pdb
+                - parameters.top file for that structure
+		- scale_RNA.dat -> external parameter file (parameters to be optimized)  
+                - HiRE-test directory containg all files to run the fortrand version of the force-field to check future implementations
+			instructions on how to run it are in the SCRIPTS directory

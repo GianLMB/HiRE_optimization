@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svnroot/mddriver/!svn/ver/64/config
+END
+MDDriver-config.csh.in
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/mddriver/!svn/ver/64/config/MDDriver-config.csh.in
+END
+MDDriverConfig.cmake.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/mddriver/!svn/ver/59/config/MDDriverConfig.cmake.in
+END
+MDDriver-config.sh.in
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/mddriver/!svn/ver/64/config/MDDriver-config.sh.in
+END

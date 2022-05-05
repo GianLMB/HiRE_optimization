@@ -1,0 +1,1 @@
+### Extract coordinates and residues from CG.pdb file ###

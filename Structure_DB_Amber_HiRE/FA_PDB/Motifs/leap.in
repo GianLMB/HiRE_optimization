@@ -1,0 +1,5 @@
+source leaprc.RNA.YIL
+mol = loadpdb "xxx.pdb"
+saveamberparm mol xxx.prmtop xxx.rst7
+savepdb mol xxx_h.pdb
+quit

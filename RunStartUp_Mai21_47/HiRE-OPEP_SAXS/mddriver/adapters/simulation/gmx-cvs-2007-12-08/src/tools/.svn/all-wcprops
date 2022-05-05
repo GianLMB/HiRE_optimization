@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/mddriver/!svn/ver/55/adapters/simulation/gmx-cvs-2007-12-08/src/tools
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/mddriver/!svn/ver/55/adapters/simulation/gmx-cvs-2007-12-08/src/tools/Makefile.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/mddriver/!svn/ver/38/adapters/simulation/gmx-cvs-2007-12-08/src/tools/Makefile.am
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/mddriver/!svn/ver/55/adapters/simulation/gmx-cvs-2007-12-08/src/tools/CMakeLists.txt
+END

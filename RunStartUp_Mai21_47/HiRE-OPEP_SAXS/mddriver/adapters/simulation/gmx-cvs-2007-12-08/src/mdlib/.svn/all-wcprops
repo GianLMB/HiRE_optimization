@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/mddriver/!svn/ver/58/adapters/simulation/gmx-cvs-2007-12-08/src/mdlib
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/mddriver/!svn/ver/55/adapters/simulation/gmx-cvs-2007-12-08/src/mdlib/Makefile.in
+END
+gmx_imd.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/mddriver/!svn/ver/38/adapters/simulation/gmx-cvs-2007-12-08/src/mdlib/gmx_imd.c
+END
+sim_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/mddriver/!svn/ver/38/adapters/simulation/gmx-cvs-2007-12-08/src/mdlib/sim_util.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/mddriver/!svn/ver/38/adapters/simulation/gmx-cvs-2007-12-08/src/mdlib/Makefile.am
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/mddriver/!svn/ver/58/adapters/simulation/gmx-cvs-2007-12-08/src/mdlib/CMakeLists.txt
+END

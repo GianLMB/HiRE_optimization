@@ -1,0 +1,3 @@
+To run check the values of the energy with the fortran code run
+
+./HIRE-fortran parameters.top scale_RNA.dat
