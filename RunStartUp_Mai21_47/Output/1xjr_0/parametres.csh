@@ -1,2 +1,0 @@
-setenv NATOMS			303
-setenv MOLECULE_TYPE			RNA

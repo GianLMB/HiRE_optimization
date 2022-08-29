@@ -1,0 +1,8 @@
+MODEL
+HEADER - id: 33 - configuration energy :        23.957744                                           
+ATOM      1  O5*   C A   1      -0.985   0.530   1.307
+ATOM      2  C5*   C A   1      -1.117   1.417   0.119
+ATOM      3  CA    C A   1      -0.857   0.883  -1.161
+ATOM      4  CY    C A   1       0.723  -0.769  -1.156
+ATOM      5  C1    C A   1       2.237  -2.061   0.891
+ENDMDL

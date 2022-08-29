@@ -1,6 +1,0 @@
-.project
-build*
-.autotools
-.cproject
-opepFileGenerator
-tests/auto_tests

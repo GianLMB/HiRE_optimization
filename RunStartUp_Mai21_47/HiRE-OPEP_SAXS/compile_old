@@ -1,1 +1,0 @@
-gfortran -ffree-form -mcmodel=large -Wall -O3 -flto -x f95-cpp-input -c  -o   SAXS_scoring.o SAXS_scoring.f90 -DIMD_SIMULATION

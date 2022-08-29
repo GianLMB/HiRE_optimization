@@ -1,0 +1,47 @@
+   1    2.449         Bonds
+   2    2.281         Angles k R4-R1-X1
+   3    2.131         Angles k R1-G1/A1-G2/A2
+   4    1.770         Angles k P-O-C
+   5    4.197         Angles k O-C-R4
+   6    4.577         Angles k C-R4-P
+   7    4.308         Angles k R4-P-O
+   8    4.803         Angles k C-R4-R1
+   9    2.048         Angles k R1-R4-P
+  10    1.265         Torsions
+  11   19.954         EV sigmoidal steepness
+  12    1.000         !! P-P
+  13    2.800         !! Debye length
+  14    3.855         Stacking scale pyr-pur
+  15    1.584         Stacking scale pur-pur
+  16    2.529         Stacking scale pyr-pyr
+  17    4.324         Stacking distance parameter pyr-pur
+  18    4.953         Stacking distance parameter pur-pur
+  19    4.521         Stacking distance parameter pyr-pyr
+  20    3.397         Stacking width parameter pyr-pur
+  21    3.992         Stacking width parameter pur-pur
+  22    3.017         Stacking width parameter pyr-pyr
+  23    1.017         HB
+  24    3.000         !! titration cutoff for HB
+  25    4.000         !! Ehb: cos(x)**p
+  26    2.366         Ehb: gaussian width for the length part
+  27    0.445         NewPlane: gaussian width for the point-plane distance
+  28    0.500         !! Newplane: interaction scale
+  29    3.820         Torsion k R4-R1-G1/A1-G2/A2
+  30   10.383         Torsion k R4-G1/A1-G2/A2-R1
+  31   11.608         Torsion k C-R4-R1-X1
+  32    7.950         Torsion k P-R4-R1-X1
+  33    0.507         Torsion k C-R4-P-O
+  34    0.741         Torsion k R1-R4-P-O
+  35    0.324         Torsion k O-C-R4-P
+  36    0.286         Torsion k O-C-R4-R1
+  37    0.206         Torsion k P-O-C-R4
+  38    0.200         Torsion k R4-P-O-C
+  39    1.200         !! rna/dna parameter: wc coef
+  40    1.500         !! rna/dna parameter: wcCanonic coef
+  41    0.400         !! rna/dna parameter: noWc coef
+  42    1.800         !! rna parameter titration
+  43    0.800         !! rna parameter hb charged base
+  44  135.345         barrier EV
+  45    1.000         !! ratio ct2 ex V
+  46    0.000         !! SAXS
+  47    1.489         Angles

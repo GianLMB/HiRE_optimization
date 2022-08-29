@@ -1,0 +1,47 @@
+   1    0.112         Bonds                                                       
+   2    3.963         Angles k R4-R1-X1                                           
+   3    1.379         Angles k R1-G1/A1-G2/A2                                     
+   4    2.512         Angles k P-O-C                                              
+   5    3.982         Angles k O-C-R4                                             
+   6    4.285         Angles k C-R4-P                                             
+   7    4.818         Angles k R4-P-O                                             
+   8    5.443         Angles k C-R4-R1                                            
+   9    1.351         Angles k R1-R4-P                                            
+  10    0.026         Torsions                                                    
+  11   15.223         EV sigmoidal steepness                                      
+  12    1.000         !! P-P                                                      
+  13    2.800         !! Debye length                                             
+  14    2.505         Stacking scale pyr-pur                                      
+  15    1.826         Stacking scale pur-pur                                      
+  16    3.932         Stacking scale pyr-pyr                                      
+  17    4.309         Stacking distance parameter pyr-pur                         
+  18    4.775         Stacking distance parameter pur-pur                         
+  19    4.546         Stacking distance parameter pyr-pyr                         
+  20    2.821         Stacking width parameter pyr-pur                            
+  21    3.813         Stacking width parameter pur-pur                            
+  22    3.010         Stacking width parameter pyr-pyr                            
+  23    0.908         HB                                                          
+  24    3.000         !! titration cutoff for HB                                  
+  25    4.000         !! Ehb: cos(x)**p                                           
+  26    2.257         Ehb: gaussian width for the length part                     
+  27    0.480         NewPlane: gaussian width for the point-plane distance       
+  28    0.500         !! Newplane: interaction scale                              
+  29    2.662         Torsion k R4-R1-G1/A1-G2/A2                                 
+  30   10.989         Torsion k R4-G1/A1-G2/A2-R1                                 
+  31   15.609         Torsion k C-R4-R1-X1                                        
+  32    5.969         Torsion k P-R4-R1-X1                                        
+  33    1.094         Torsion k C-R4-P-O                                          
+  34    1.065         Torsion k R1-R4-P-O                                         
+  35    0.435         Torsion k O-C-R4-P                                          
+  36    1.408         Torsion k O-C-R4-R1                                         
+  37    1.440         Torsion k P-O-C-R4                                          
+  38    0.532         Torsion k R4-P-O-C                                          
+  39    1.200         !! rna/dna parameter: wc coef                               
+  40    1.500         !! rna/dna parameter: wcCanonic coef                        
+  41    0.400         !! rna/dna parameter: noWc coef                             
+  42    1.800         !! rna parameter titration                                  
+  43    0.800         !! rna parameter hb charged base                            
+  44  142.306         barrier EV                                                  
+  45    1.000         !! ratio ct2 ex V                                           
+  46    0.000         !! SAXS                                                     
+  47    0.329         Angles                                                      

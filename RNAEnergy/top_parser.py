@@ -1,1 +1,0 @@
-### Extracts all information in the topology file ###
