@@ -8,7 +8,7 @@ In this first phase of the project I focussed on parameters related to local int
 3. Definition of the ML models to compute the energy with HiRE for parameters optimization;
 4. Analysis of results through molecular dynamics (MD) simulations.
 
-The language used is Python 3.8 and the ML model is written using Pytorch library. For the dataset creation and analysis of results, biopython and MDtraj packages are required.
+The language used is Python 3.8 and the ML model is written using Pytorch library. For the dataset creation and analysis of results, [biopython](https://biopython.org/) and [MDtraj](https://www.mdtraj.org/1.9.8.dev0/index.html) packages are required.
 
 ## Directories
 
