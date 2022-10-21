@@ -7,7 +7,6 @@ The methods used are the following:
 - [Amber](Amber): original minimized structures;
 - [HiRE_old](HiRE_old): initial values of parameters;
 - [FreeMin](FreeMin): free minimization, with learning rate equal for all parameters;
-- [FreeMin_1808](FreeMin_1808) and [FreeMin_2008](FreeMin_2008): same as before, but with different building for the HiRE model (variation in some regularization factors to make simulations more stable);
 - [FreeMin_newangles](FreeMin_newangles): free minimization, but with large initial values for angles involving purines;
 - [PSGD](PSGD): preconditioned stochastic gradient descent;
 - [NoGeom](NoGeom): fixed geometric parameters;

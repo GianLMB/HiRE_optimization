@@ -2,7 +2,7 @@
 
 Here ML models are reported, with corresponding datasets, source code, results and analyses. In particular, [Model_first](Model_first) contains the first implementation, with results obtained with classical SGD, Preconditioned Stochastic Gradient descent (PSGD) and fixation of geometric parameters; [Model_less_dof](Model_less_dof) eliminates degeneracy in some global parameters and [Model_with_tanh](Model_with_tanh) introduces different functional forms to impose soft constraints in geometric parameters.
 
-All directories are structures in a similar way:
+All directories are structured in a similar way:
 ```
 Model_*
 │   

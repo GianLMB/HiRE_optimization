@@ -21,9 +21,6 @@ The language used is Python 3.8 and the ML model is written using Pytorch librar
 1. [FA_PDB](Structure_DB_Amber_HiRE/FA_PDB), with original RNA sequences, the subsequences obtained parsing PDB files (Cropped_PDB) and the corresponding energies computed with AMBER (Cropped_energies);
 2. [Prep_pureHire](Structure_DB_Amber_HiRE/Prep_pureHire), with the script to generate coarse-grained structures for each sequence and eventually compute energies with HiRE, that are then stored in homonymous directories in Cropped_Output.
 
-[HiRE_lib](HiRE_lib) contains the source code in Fortran and the instructions to build the HiRE model.
-
-
 ## References
 
 [[1]](https://pubs.acs.org/doi/abs/10.1021/acs.jctc.5b00200)
